@@ -14,6 +14,7 @@
 		83720F1D2B63B23000F4EC2A /* SentimentAnalysisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83720F1C2B63B23000F4EC2A /* SentimentAnalysisTests.swift */; };
 		83720F272B63B23000F4EC2A /* SentimentAnalysisUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83720F262B63B23000F4EC2A /* SentimentAnalysisUITests.swift */; };
 		83720F292B63B23000F4EC2A /* SentimentAnalysisUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83720F282B63B23000F4EC2A /* SentimentAnalysisUITestsLaunchTests.swift */; };
+		83720F362B63BA7A00F4EC2A /* SentimentsAnalitycs 1.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 83720F352B63BA7A00F4EC2A /* SentimentsAnalitycs 1.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		83720F222B63B23000F4EC2A /* SentimentAnalysisUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SentimentAnalysisUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		83720F262B63B23000F4EC2A /* SentimentAnalysisUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SentimentAnalysisUITests.swift; sourceTree = "<group>"; };
 		83720F282B63B23000F4EC2A /* SentimentAnalysisUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SentimentAnalysisUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		83720F352B63BA7A00F4EC2A /* SentimentsAnalitycs 1.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "SentimentsAnalitycs 1.mlmodel"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		83720F0A2B63B22D00F4EC2A /* SentimentAnalysis */ = {
 			isa = PBXGroup;
 			children = (
+				83720F352B63BA7A00F4EC2A /* SentimentsAnalitycs 1.mlmodel */,
 				83720F0B2B63B22D00F4EC2A /* SentimentAnalysisApp.swift */,
 				83720F0D2B63B22D00F4EC2A /* ContentView.swift */,
 				83720F0F2B63B22F00F4EC2A /* Assets.xcassets */,
@@ -259,6 +262,7 @@
 			files = (
 				83720F0E2B63B22D00F4EC2A /* ContentView.swift in Sources */,
 				83720F0C2B63B22D00F4EC2A /* SentimentAnalysisApp.swift in Sources */,
+				83720F362B63BA7A00F4EC2A /* SentimentsAnalitycs 1.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
